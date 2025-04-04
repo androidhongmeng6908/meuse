@@ -1574,7 +1574,6 @@ jobs:
             # do not use rustup, because memory overflow in qemu
             wget -O rust.tar.gz https://static.rust-lang.org/dist/rust-${{env.RUST_TOOLCHAIN_VERSION}}-${{ matrix.job.target }}.tar.gz
             tar -zxvf rust.tar.gz > /dev/null && rm rust.tar.gz
-            chmod +x ./install.sh
             cd rust-${{env.RUST_TOOLCHAIN_VERSION}}-${{ matrix.job.target }} && ./install.sh
             rm -rf rust-${{env.RUST_TOOLCHAIN_VERSION}}-${{ matrix.job.target }}
             # edit config
