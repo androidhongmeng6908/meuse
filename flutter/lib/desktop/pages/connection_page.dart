@@ -34,7 +34,7 @@ class OnlineStatusWidget extends StatefulWidget {
 /// State for the connection page.
 class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
   final _svcStopped = Get.find<RxBool>(tag: 'stop-service');
-  final _svcIsUsingPublicServer = true.obs;
+  final _svcIsUsingPublicServer = false.obs;
   Timer? _updateTimer;
 
   double get em => 14.0;
