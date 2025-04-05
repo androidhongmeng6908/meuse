@@ -18,7 +18,7 @@ winapi = { version = "0.3", features = ["winbase"] }
 native-windows-gui = {version = "1.0", default-features = false, features = ["animation-timer", "image-decoder"]}
 
 [package.metadata.winres]
-LegalCopyright = "Copyright © 2025 Wudizainali Lee. All rights reserved."
+LegalCopyright = "Copyright © 2025 闲鱼 无敌在哪里 Lee. All rights reserved."
 ProductName = "RustDesk"
 OriginalFilename = "rustdesk.exe"
 FileDescription = "RustDesk Remote Desktop"

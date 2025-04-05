@@ -183,7 +183,7 @@ members = ["libs/scrap", "libs/hbb_common", "libs/enigo", "libs/clipboard", "lib
 exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
-LegalCopyright = "Copyright © 2025 Wudizainali Lee. All rights reserved."
+LegalCopyright = "Copyright © 2025 闲鱼 无敌在哪里 Lee. All rights reserved."
 ProductName = "RustDesk"
 FileDescription = "RustDesk Remote Desktop"
 OriginalFilename = "rustdesk.exe"
